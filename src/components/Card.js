@@ -1,24 +1,36 @@
 // import { Button } from "bootstrap";
 import React from "react";
 import Card from "react-bootstrap/Card";
-import Button from 'react-bootstrap/Button';
-import  './Card.css'
+import Button from "react-bootstrap/Button";
+import "./Card.css";
+import { useHistory } from "react-router-dom";
 
-const Cards = () => {
+const Cards = (props) => {
+  const {id,video, title, desc, img, price } = props;
+  console.log("video",video)
+  const history = useHistory()
+  const handleDirect = (id) => {
+      console.log("ids",id);
+      history.push(`/${id}`)
+
+  }
   return (
-   <article className="crd" >
-     <Card style={{ width: '18rem' }}>
-       <figure>
-  <Card.Img variant="top" src="https://wallpapercave.com/wp/wp6196238.jpg" />
-  <figcaption className="caption">Assassin Creed</figcaption>
-  </figure>
- <Card.Body>
-   <Card.Title>Good Morning</Card.Title>
-   <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
- </Card.Body>
- <Button variant="primary">Go somewhere</Button>
-</Card>
-   </article>
+    <article className="crd">
+      <Card className="crd-tag" style={{ width: "18rem" }}>
+        <figure>
+          {img===""?
+          <iframe controls autoPlay src={`${video}?autoplay=1`} />
+          // <video controls autoPlay style={{width:"280px", height:"160px"}} src={video} />
+          :<Card.Img variant="top" src={img} />}
+          <figcaption className="caption">Assassin Creed</figcaption>
+        </figure>
+        <Card.Body>
+          <Card.Title>{title}</Card.Title>
+          <Card.Text>{desc}</Card.Text>
+        </Card.Body>
+        <Button onClick={() => handleDirect(id)} variant="primary">Go somewhere</Button>
+      </Card>
+    </article>
   );
 };
 

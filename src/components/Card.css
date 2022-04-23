@@ -1,6 +1,18 @@
 .crd{
     margin: 30px;
+    display: flex;
 }
 .caption{
     text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .crd{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .crd-tag{
+        width: 22rem !important;
+    }
 }

@@ -1,19 +1,85 @@
 {
-    "blogs":[
-        {
-            "id":1,
-            "img": "https://wallpapercave.com/wp/wp6196238.jpg",
-            "title":"Assassin Creed",
-            "decs":"Some quick example text to build on the card title and make up the bulk of the card's content.",
-            "price": 3000
-
-        },{
-            "id":2,
-            "img": "https://wallpapercave.com/wp/wp6196238.jpg",
-            "title":"Assassin Creed",
-            "decs":"Some quick example text to build on the card title and make up the bulk of the card's content.",
-            "price": 3000
-
-        }
-    ]
+  "blogs": [
+    {
+      "id": 1,
+      "img": "https://wallpapercave.com/wp/wp6196238.jpg",
+      "title": "Assassin Creed",
+      "decs": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    },
+    {
+      "id": 2,
+      "img": "https://wallpapercave.com/wp/wp6196238.jpg",
+      "title": "Assassin Creed Vallhella",
+      "decs": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    },
+    {
+      "id": 3,
+      "img": "https://wallpapercave.com/wp/wp6196238.jpg",
+      "title": "Assassin Creed Vallhella",
+      "decs": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    },
+    {
+      "title": "roads",
+      "decs": "this is hella",
+      "img": "https://wallpapercave.com/wp/wp6196238.jpg",
+      "id": 4
+    },
+    {
+      "title": "foods",
+      "decs": "This is not my foods",
+      "img": "https://wallpapercave.com/wp/wp6196238.jpg",
+      "id": 5
+    },
+    {
+      "title": "Fortnite",
+      "decs": "Lets play this game lose you all hopes.hence you became a hope less one",
+      "img": "https://images.firstpost.com/wp-content/uploads/2018/07/Fortnite.jpg",
+      "id": 6
+    },
+    {
+      "title": "The Witcher",
+      "decs": "Geralt of raveviea with great skill and the hunter or the killer of the witchers",
+      "img": "https://wallpapercave.com/wp/wp4576866.jpg",
+      "id": 7
+    },
+    {
+      "title": "Cs-Go",
+      "decs": "This is Cs go",
+      "img": "https://img3.goodfon.com/original/1600x900/d/a3/2k-hd-resolution-poster-cs-go-counter-strike-global-offensiv.jpg",
+      "id": 8
+    },
+    {
+      "title": "blogs",
+      "decs": "This is Blogs",
+      "img": "https://images.firstpost.com/wp-content/uploads/2018/07/Fortnite.jpg",
+      "id": 9
+    },
+    {
+      "title": "Laal Topi",
+      "decs": "This is Laal Topi",
+      "img": "data:image/jpeg;base64,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",
+      "id": 10
+    },
+    {
+      "title": "First Video",
+      "decs": "This is Video",
+      "img": "",
+      "video": "https://player.vimeo.com/video/299108946",
+      "id": 11
+    },
+    {
+      "title": "Second Video",
+      "decs": "The video is for the getting the better of the woprld in the world get poors",
+      "img": "",
+      "video": "https://player.vimeo.com/video/299108946",
+      "id": 12
+    },
+    {
+      "title": "Hashmi",
+      "decs": "The Innocent Boy ",
+      "img": "",
+      "video": "https://player.vimeo.com/video/299108946",
+      "id": 13
+    }
+  ]
 }
