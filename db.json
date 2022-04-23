@@ -1,0 +1,19 @@
+{
+    "blogs":[
+        {
+            "id":1,
+            "img": "https://wallpapercave.com/wp/wp6196238.jpg",
+            "title":"Assassin Creed",
+            "decs":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "price": 3000
+
+        },{
+            "id":2,
+            "img": "https://wallpapercave.com/wp/wp6196238.jpg",
+            "title":"Assassin Creed",
+            "decs":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "price": 3000
+
+        }
+    ]
+}
