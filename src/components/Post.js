@@ -62,8 +62,7 @@ const Post = () => {
           <option value="image">image</option>
 
           <option value="video">video</option>
-        </select>
-        {console.log("selected", selected)}
+        </select> <br />
         {selected == "image" ? (
           <input
             type="text"

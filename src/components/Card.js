@@ -19,7 +19,7 @@ const Cards = (props) => {
       <Card className="crd-tag" style={{ width: "18rem" }}>
         <figure>
           {img===""?
-          <iframe controls autoPlay src={`${video}?autoplay=1`} />
+          <iframe sandbox="allow-scripts allow-presentation allow-same-origin" allow="autoPlay;fullscreen; picture-in-picture; xr-spatial-tracking; clipboard-write"  src={`${video}?autoplay=1`}></iframe>
           // <video controls autoPlay style={{width:"280px", height:"160px"}} src={video} />
           :<Card.Img variant="top" src={img} />}
           <figcaption className="caption">Assassin Creed</figcaption>

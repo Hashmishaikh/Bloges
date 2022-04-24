@@ -23,7 +23,8 @@ const FullPost = () => {
   return <div className="full-post">
       <div>
         {hash==""?
-        <iframe src={vid}/>:
+        <iframe  width="700"
+        height="360" style={{width: "80%",marginLeft:"171px"}} allow="autoPlay;fullscreen; picture-in-picture; xr-spatial-tracking; clipboard-write" src={vid}/>:
         // <video controls autoPlay src={vid} />:
           <img style={{width: "80%",marginLeft:"171px"}} src={hash} />
         }
